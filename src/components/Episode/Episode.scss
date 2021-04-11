@@ -1,0 +1,24 @@
+$root-class: episode--card;
+
+.#{$root-class} {
+    background-color: white;
+
+	&__button {
+		background: none;
+		color: inherit;
+		border: none;
+		padding: 0;
+		margin-bottom: 1px;
+		outline: inherit;
+		width: 100%;
+	}
+
+	&__name {
+		padding: 10px 15px;
+	}
+
+	&__audio {
+	    width: 100%;
+	    background-color: white;
+	}
+}
