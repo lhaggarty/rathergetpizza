@@ -1,0 +1,35 @@
+$root-class: loading--card;
+.#{$root-class} {
+	-webkit-animation: wave 1.75s linear infinite;
+	animation: wave 1.75s linear infinite;
+
+	@keyframes wave {
+		0% {
+			opacity: 1;
+		}
+		25% {
+			opacity: 0.9;
+		}
+		50% {
+			opacity: 0.6;
+		}
+		75% {
+			opacity: 0.9;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	&__name {
+		width: 200px;
+		font-size: 12px;
+		background-color: #e6e6e6;
+		color: #e6e6e6;
+		border: 1px solid transparent;
+		border-radius: 0.5rem;
+		margin: 15px;
+		padding: 8px;
+		display: inline-block;
+	}
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <channel>
+	<atom:link href="https://archive.org/download/rathergetpizza-podcast/rathergetpizza-podcast.rss" rel="self" type="application/rss+xml"/>
+    <title>Rather Get Pizza</title>
+    <link>https://rathergetpizza.com</link>
+    <language>en</language>
+    <copyright>2020</copyright>
+    <itunes:subtitle>The twists and turns in our life</itunes:subtitle>
+    <itunes:author>Sam &amp; Leon</itunes:author>
+	<description>Deciding what do for dinner is a big dilemma. Sam &amp; Leon are often stuck between options. But there is always one constant. We’d rather get pizza! Sam and Leon discuss the twists and turns of life, including anything from making dinner to making a relationship work.</description>
+    <itunes:summary>Deciding what do for dinner is a big dilemma. Sam &amp; Leon are often stuck between options. But there is always one constant. We’d rather get pizza! Sam and Leon discuss the twists and turns of life, including anything from making dinner to making a relationship work.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Squire Productions</itunes:name>
+      <itunes:email>squireproductions@live.ca</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://archive.org/download/rathergetpizza-podcast/rgp-podcast-logo-1600.png" />
+	<itunes:keywords>pizza,party,comedy,couple,partner</itunes:keywords>
+	<itunes:category text="Comedy"></itunes:category>
+	<itunes:category text="Society &amp; Culture">
+		<itunes:category text="Personal Journals"></itunes:category>
+	</itunes:category>
+	<itunes:category text="Health"></itunes:category>
+	<itunes:explicit>no</itunes:explicit>
+	<managingEditor>squireproductions@live.ca (squireproductions@live.ca)</managingEditor>
+
+      <item>
+        <title>1. First Date</title>
+        <itunes:author>Sam and Leon</itunes:author>
+        <itunes:subtitle>How our first date went.  Hearing the story from both perspectives.</itunes:subtitle>
+        <itunes:summary>The two perspectives of us meeting.  Reflecting on our thoughts at the time and our thoughts now.</itunes:summary>
+        <itunes:image href="https://rathergetpizza.com/images/episode-1.jpg" />
+        <enclosure url="https://rathergetpizza.com/audio/rgp-episode-1.mp3" length="1056" type="audio/mpeg"/>
+		<link><![CDATA[https://rathergetpizza.com/audio/rgp-episode-1.mp3]]></link>
+        <guid isPermaLink="false">d8c7f605-4d35-4ab2-b57c-d0f7d0f28d57</guid>
+        <pubDate>Wed, 1 Jan 2020 19:00:00 +0000</pubDate>
+        <itunes:duration>17:36</itunes:duration>
+      </item>
+
+  </channel>
+</rss>

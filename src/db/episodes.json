@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"name": "First Meeting",
+		"url": "https://dts.podtrac.com/redirect.mp3/ia803103.us.archive.org/18/items/rgpep1/ep1%20-%20edited%20nov%208.mp3",
+		"image": "https://ia903103.us.archive.org/18/items/rgpep1/episode-1.jpeg"
+	},
+	{
+		"id": 2,
+		"name": "Job Seeking",
+		"url": "https://rathergetpizza.com/audio/rgp-episode-2.mp3",
+		"image": "https://ia903104.us.archive.org/11/items/rgpep2/episode-2.jpeg"
+	},
+	{
+		"id": 3,
+		"name": "Working Together",
+		"url": "https://archive.org/download/rgp-ep-3/ep%203%20-%20compressed.mp3",
+		"image": "https://static.wixstatic.com/media/d2e9d0_613bfb121af54a6184026b081f8d9ec0~mv2.jpg/v1/fill/w_590,h_321/d2e9d0_613bfb121af54a6184026b081f8d9ec0~mv2.jpg"
+	},
+	{
+		"id": 4,
+		"name": "New Year, New Goals",
+		"url": "https://dts.podtrac.com/redirect.mp3/ia801501.us.archive.org/1/items/rgp-episode-8/episode%208%20compressed.mp3",
+		"image": "https://ia801501.us.archive.org/1/items/rgp-episode-8/rgp-episode-release-4-recorded-8.jpeg"
+	},
+	{
+		"id": 5,
+		"name": "DIY Carpentry & Storage Lockers - Episode 4",
+		"url": "https://archive.org/download/rgp-episode-4/ep%204%20-%20compressed.mp3",
+		"image": "/images/diy-carpentry-storage-lockers.jpg"
+	},
+	{
+		"id": 6,
+		"name": "Dating Stories - Episode 5",
+		"url": "https://archive.org/download/rgp-ep-5/ep%205%20-%20compressed.mp3",
+		"image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/cfd40320152009.56041f3d3b878.jpg"
+	}
+]

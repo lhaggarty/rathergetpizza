@@ -1,0 +1,79 @@
+[
+  {
+	  "id": 1,
+    "name": "First Meeting",
+    "url": "https://ia803103.us.archive.org/18/items/rgpep1/ep1%20-%20edited%20nov%208.mp3",
+    "image": "https://ia903103.us.archive.org/18/items/rgpep1/episode-1.jpeg",
+	"released": true
+  },
+  {
+	  "id": 2,
+    "name": "Job Seeking",
+    "url": "https://ia803104.us.archive.org/11/items/rgpep2/ep2%20-%20edited%20nov%208.mp3",
+    "image": "/images/job-seeking.jpg",
+	"released": true
+},
+{
+	"id": 3,
+	"name": "Working Together",
+	"url": "https://ia803108.us.archive.org/35/items/rgp-episodes-3-4/ep%203%20-%20compressed.mp3",
+	"image": "https://ia903108.us.archive.org/35/items/rgp-episodes-3-4/rgp-episode-3.jpeg",
+	"released": true
+},
+{
+	"id": 4,
+	"name": "New Year, New Goals",
+	"url": "https://archive.org/download/rgp-episode-8/episode%208%20compressed.mp3",
+	"image": "/images/rgp-podcast-logo-1600.png",
+	"released": true
+},
+{
+	"id": 5,
+	"name": "DIY Carpentry & Storage Lockers",
+	"url": "https://archive.org/download/rgp-episode-4/ep%204%20-%20compressed.mp3",
+	"image": "https://ia801400.us.archive.org/17/items/rathergetpizza-podcast/rgp-podcast-logo-1600.png",
+	"released": true
+},
+{
+	"id": 6,
+	"name": "Dating Stories",
+	"url":"https://archive.org/download/rgp-ep-5/ep%205%20-%20compressed.mp3",
+	"image": "https://ia801400.us.archive.org/17/items/rathergetpizza-podcast/rgp-podcast-logo-1600.png",
+	"released": true
+},
+{
+	"id": 7,
+	"name": "Bed Bugs",
+	"url":"https://archive.org/download/rgp-ep-6/episode%206%20compressed%20dec%2030.mp3",
+	"image": "https://www.thewrap.com/wp-content/uploads/2018/01/Screen-Shot-2018-01-25-at-12.16.40-PM.png",
+	"released": false
+},
+{
+	"id": 8,
+	"name": "Board Games",
+	"url":"https://archive.org/download/NatureSounds_46/NatureSounds.mp3",
+	"image": "https://archive.org/download/rathergetpizza-podcast/rgp-podcast-logo-1600.png",
+	"released": true
+},
+{
+	"id": 9,
+	"name": "The Music of our Childhood",
+	"url":"https://archive.org/download/rgp-episode-9/ep%209%20compressed.mp3",
+	"image": "https://archive.org/download/rathergetpizza-podcast/rgp-podcast-logo-1600.png",
+	"released": true
+},
+{
+	"id": 10,
+	"name": "Running Goal & Training",
+	"url":"https://dts.podtrac.com/redirect.mp3/ia902802.us.archive.org/23/items/rgp-episode-10/ep%2010%20-%20compressed.mp3",
+	"image": "https://ia801400.us.archive.org/17/items/rathergetpizza-podcast/rgp-podcast-logo-1600.png",
+	"released": true
+},
+{
+	"id": 11,
+	"name": "The Treadmill (or Dreadmill?)",
+	"url":"https://dts.podtrac.com/redirect.mp3/archive.org/download/rgp-episode-12/ep%2012%20-%20compressed.mp3",
+	"image": "https://archive.org/download/rathergetpizza-podcast/rgp-podcast-logo-1600.png",
+	"released": true
+}
+]

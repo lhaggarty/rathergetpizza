@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<channel>
+		<atom:link href="https://archive.org/download/rathergetpizza-podcast/rathergetpizza-podcast.rss" rel="self" type="application/rss+xml"/>
+		<title>Rather Get Pizza</title>
+		<link>https://rathergetpizza.com</link>
+		<language>en</language>
+		<copyright>2020</copyright>
+		<itunes:subtitle>The twists and turns in our life</itunes:subtitle>
+		<itunes:author>Sam &amp; Leon</itunes:author>
+		<description>Deciding what do for dinner is a big dilemma. Sam &amp; Leon are often stuck between options. But there is always one constant. We’d rather get pizza! Sam and Leon discuss the twists and turns of life, including anything from making dinner to making a relationship work.</description>
+		<itunes:summary>Deciding what do for dinner is a big dilemma. Sam &amp; Leon are often stuck between options. But there is always one constant. We’d rather get pizza! Sam and Leon discuss the twists and turns of life, including anything from making dinner to making a relationship work.</itunes:summary>
+		<itunes:owner>
+			<itunes:name>Squire Productions</itunes:name>
+			<itunes:email>squireproductions@live.ca</itunes:email>
+		</itunes:owner>
+		<itunes:image href="https://archive.org/download/rathergetpizza-podcast/rgp-podcast-logo-1600.png" />
+		<itunes:keywords>pizza,party,comedy,couple,partner</itunes:keywords>
+		<itunes:category text="Comedy"></itunes:category>
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Personal Journals"></itunes:category>
+		</itunes:category>
+		<itunes:category text="Health"></itunes:category>
+		<itunes:explicit>no</itunes:explicit>
+		<managingEditor>squireproductions@live.ca (squireproductions@live.ca)</managingEditor>
+		<item>
+			<title>1. First Date</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>How our first date went.  Hearing the story from both perspectives.</itunes:subtitle>
+			<itunes:summary>The two perspectives of us meeting.  Reflecting on our thoughts at the time and our thoughts now.</itunes:summary>
+			<itunes:image href="https://ia903103.us.archive.org/18/items/rgpep1/episode-1.jpeg" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/ia803103.us.archive.org/18/items/rgpep1/ep1%20-%20edited%20nov%208.mp3" length="32200000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/ia803103.us.archive.org/18/items/rgpep1/ep1%20-%20edited%20nov%208.mp3]]></link>
+			<guid isPermaLink="false">d8c7f605-4d35-4ab2-b57c-d0f7d0f28d57</guid>
+			<pubDate>Wed, 1 Jan 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>17:36</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+
+		<item>
+			<title>2. Job Seeking</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>Had work problems? We have. Had problems Looking for new jobs? We have as well!</itunes:subtitle>
+			<itunes:summary>Whether you're ready for the next challenge or feeling something is wrong in your work, we've been there.  Sam &amp; Leon go job hunting.  Sam details her job application journey.  Leon outlines the software developer steps.  Evaluating prospective jobs.  Quiting your current job.</itunes:summary>
+			<itunes:image href="https://ia903104.us.archive.org/11/items/rgpep2/episode-2.jpeg" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/ia803104.us.archive.org/11/items/rgpep2/ep2%20-%20edited%20nov%208.mp3" length="28900000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/ia803104.us.archive.org/11/items/rgpep2/ep2%20-%20edited%20nov%208.mp3]]></link>
+			<guid isPermaLink="false">2d7488a5-43c9-4de9-9399-cdcc49bfe1e4</guid>
+			<pubDate>Thu, 9 Jan 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>34:10</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+
+		<item>
+			<title>3. Working Together</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>
+				Sam &amp; Leon work together.  Building Ikea furntiure and following recipes.  What went wrong. What went right. What we learned.
+			</itunes:subtitle>
+			<itunes:summary>
+				Sam &amp; Leon work together.  Building Ikea furntiure and following recipes.  What went wrong. What went right. What we learned.
+			</itunes:summary>
+			<itunes:image href="https://ia903108.us.archive.org/35/items/rgp-episodes-3-4/rgp-episode-3.jpeg" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/ia803108.us.archive.org/35/items/rgp-episodes-3-4/ep%203%20-%20compressed.mp3" length="38600000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/ia803108.us.archive.org/35/items/rgp-episodes-3-4/ep%203%20-%20compressed.mp3]]></link>
+			<guid isPermaLink="false">80ba0799-6937-44b2-b56a-9aced3f3937b</guid>
+			<pubDate>Mon, 20 Jan 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>31:49</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+
+		<item>
+			<title>4. New Year, New Goals</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>
+				It’s a new year. In this episode we discuss what we have going on and our goals for the upcoming year.
+			</itunes:subtitle>
+			<itunes:summary>
+				It’s a new year. In this episode we discuss what we have going on and our goals for the upcoming year.
+			</itunes:summary>
+			<itunes:image href="https://ia801501.us.archive.org/1/items/rgp-episode-8/rgp-episode-release-4-recorded-8.jpeg" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/ia801501.us.archive.org/1/items/rgp-episode-8/episode%208%20compressed.mp3" length="29900000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/ia801501.us.archive.org/1/items/rgp-episode-8/episode%208%20compressed.mp3]]></link>
+			<guid isPermaLink="false">c11e2922-8655-42bc-bf11-4010d31ec3b4</guid>
+			<pubDate>Mon, 27 Jan 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>16:11</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+
+		<item>
+			<title>5. DIY Carpentry &amp; Storage Lockers</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>
+				Sam &amp; Leon setup a shelf and coat rack.  And they discuss having your belonging stored.
+			</itunes:subtitle>
+			<itunes:summary>
+				Sam &amp; Leon setup a shelf and coat rack.  And they discuss having your belonging stored.
+			</itunes:summary>
+			<itunes:image href="https://ia801400.us.archive.org/17/items/rathergetpizza-podcast/rgp-podcast-logo-1600.png" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/ia803108.us.archive.org/35/items/rgp-episodes-3-4/ep%204%20-%20compressed.mp3" length="35800000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/ia803108.us.archive.org/35/items/rgp-episodes-3-4/ep%204%20-%20compressed.mp3]]></link>
+			<guid isPermaLink="false">5c7b8455-07f7-4b72-b5a3-700310a9c551</guid>
+			<pubDate>Mon, 3 Feb 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>28:51</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+
+		<item>
+			<title>6. Dating Stories</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>
+				Sam &amp; Leon tell dating stories from their past.  Cringing at the awkward, embracing our tragedies, laughing fondly at our failures.
+			</itunes:subtitle>
+			<itunes:summary>
+				Sam &amp; Leon tell dating stories from their past.  Cringing at the awkward, embracing our tragedies, laughing fondly at our failures.
+			</itunes:summary>
+			<itunes:image href="https://ia801400.us.archive.org/17/items/rathergetpizza-podcast/rgp-podcast-logo-1600.png" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/ia903100.us.archive.org/10/items/rgp-ep-5/ep%205%20feb%2010%20compressed.mp3" length="72100000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/ia903100.us.archive.org/10/items/rgp-ep-5/ep%205%20feb%2010%20compressed.mp3]]></link>
+			<guid isPermaLink="false">06804bf3-d1a8-44ab-84e9-b778a6ab041f</guid>
+			<pubDate>Mon, 10 Feb 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>37:09</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+		<item>
+			<title>7. Bed Bugs</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>
+				Sam &amp; Leon tell a real life horror story.  Our restless experience with bed bugs.  The discovery, research, bites, treatment, and PTSD.
+			</itunes:subtitle>
+			<itunes:summary>
+				Sam &amp; Leon tell a real life horror story.  Our restless experience with bed bugs.  The discovery, research, bites, treatment, and PTSD.
+			</itunes:summary>
+			<itunes:image href="https://ia801400.us.archive.org/17/items/rathergetpizza-podcast/rgp-podcast-logo-1600.png" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/ia801409.us.archive.org/5/items/rgp-ep-6/ep%206%20-%20compresed.mp3" length="46200000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/ia801409.us.archive.org/5/items/rgp-ep-6/ep%206%20-%20compresed.mp3]]></link>
+			<guid isPermaLink="false">4ea34298-bd96-43a6-b9cf-fa1a6187e48d</guid>
+			<pubDate>Wed, 19 Feb 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>33:07</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+		<item>
+			<title>8. Board Games</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>
+				This week we're talking board games.  Sam wanted a hobby, Leon likes games.  Going over the games we've collected, the rules, the fun level, and the competition.
+			</itunes:subtitle>
+			<itunes:summary>
+				This week we're talking board games.  Sam wanted a hobby, Leon likes games.  Going over the games we've collected, the rules, the fun level, and the competition.
+			</itunes:summary>
+			<itunes:image href="https://ia801400.us.archive.org/17/items/rathergetpizza-podcast/rgp-podcast-logo-1600.png" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/ia802805.us.archive.org/3/items/rgp-episode-7/ep%207%20compressed.mp3" length="50000000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/ia802805.us.archive.org/3/items/rgp-episode-7/ep%207%20compressed.mp3]]></link>
+			<guid isPermaLink="false">4e377dac-cdb9-42f2-972e-c26d7119645a</guid>
+			<pubDate>Wed, 26 Feb 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>27:02</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+		<item>
+			<title>9. First Experiences With Music</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>
+				Music means the world to Sam &amp; Leon.  This week Leon &amp; Sam talk about their first memories of harmonic sound. The early artists we listened to and the music that pleased our young ears.
+			</itunes:subtitle>
+			<itunes:summary>
+				Music means the world to Sam &amp; Leon.  This week Leon &amp; Sam talk about their first memories of harmonic sound. The early artists we listened to and the music that pleased our young ears.
+			</itunes:summary>
+			<itunes:image href="https://ia801400.us.archive.org/17/items/rathergetpizza-podcast/rgp-podcast-logo-1600.png" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/ia801502.us.archive.org/7/items/rgp-episode-9/ep%209%20-%20compressed.mp3" length="56700000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/ia801502.us.archive.org/7/items/rgp-episode-9/ep%209%20-%20compressed.mp3]]></link>
+			<guid isPermaLink="false">bd5ec6dd-08fb-46dc-8213-f190721cf4ee</guid>
+			<pubDate>Tue, 3 Mar 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>30:44</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+		<item>
+			<title>10. Running Goal &amp; Training</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>
+				We talk about our current and previous running goal.  The differences in body types, training intensivity.  Sam talks about a major setback she had when training for last year's 10km running event.
+			</itunes:subtitle>
+			<itunes:summary>
+				We talk about our current and previous running goal.  The differences in body types, training intensivity.  Sam talks about a major setback she had when training for last year's 10km running event.
+			</itunes:summary>
+			<itunes:image href="https://ia801400.us.archive.org/17/items/rathergetpizza-podcast/rgp-podcast-logo-1600.png" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/ia902802.us.archive.org/23/items/rgp-episode-10/ep%2010%20-%20compressed.mp3" length="47800000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/ia902802.us.archive.org/23/items/rgp-episode-10/ep%2010%20-%20compressed.mp3]]></link>
+			<guid isPermaLink="false">f3b522dd-bf58-48f4-a609-9deedee3b547</guid>
+			<pubDate>Tue, 31 Mar 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>25:52</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+		<item>
+			<title>11. Running Training Part 2 - The Treadmill AKA The Dreadmill</title>
+			<itunes:author>Sam &amp; Leon</itunes:author>
+			<itunes:subtitle>
+				We talk about our how we do our runnning training on the treadmill a.k.a. the dreadmill. Running shoes, warm up excercises, treadmill preferences, extending your distances &amp; time, setting challenge &amp; accomplishing it, and self motivation.
+			</itunes:subtitle>
+			<itunes:summary>
+				We talk about our how we do our runnning training on the treadmill a.k.a. the dreadmill. Running shoes, warm up excercises, treadmill preferences, extending your distances &amp; time, setting challenge &amp; accomplishing it, and self motivation.
+			</itunes:summary>
+			<itunes:image href="https://ia801400.us.archive.org/17/items/rathergetpizza-podcast/rgp-podcast-logo-1600.png" />
+			<enclosure url="https://dts.podtrac.com/redirect.mp3/archive.org/download/rgp-episode-12/ep%2012%20-%20compressed.mp3" length="27400000" type="audio/mpeg"/>
+			<link><![CDATA[https://dts.podtrac.com/redirect.mp3/archive.org/download/rgp-episode-12/ep%2012%20-%20compressed.mp3]]></link>
+			<guid isPermaLink="false">aed0dca3-1bb8-43b3-8640-4cec68cfe134</guid>
+			<pubDate>Thu, 9 Apr 2020 19:00:00 +0000</pubDate>
+			<itunes:duration>14:47</itunes:duration>
+			<itunes:season>1</itunes:season>
+		</item>
+	</channel>
+</rss>
