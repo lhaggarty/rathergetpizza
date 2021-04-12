@@ -1,0 +1,11 @@
+@mixin propertyClass($cssProp, $value) {
+	.#{$cssProp}-#{$value} {
+		#{$cssProp}: $value;
+	}
+}
+
+.contact-us-form {
+	height: 100%;
+
+	@include propertyClass(max-height, 200px);
+}

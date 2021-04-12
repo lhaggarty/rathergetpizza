@@ -1,0 +1,101 @@
+.platforms a {
+	height: 100px;
+	span {
+		background: #f7f7f7;
+		color: #4c4c4c;
+		opacity: 1;
+	}
+	&:hover,
+	&:focus {
+		span {
+			color: #dc3545;
+		}
+	}
+}
+.pizza-bg {
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 5px;
+	background-image: url('/images/pizza-1.png');
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 390px;
+	opacity: 0.65;
+	left: 2.5%;
+}
+
+.platforms {
+	padding-top: 80px;
+	z-index: 1;
+	position: relative;
+
+	> a:nth-of-type(1),
+	> a:nth-of-type(2) {
+		align-items: flex-end !important;
+	}
+}
+
+.col-sm-5 > div {
+	width: 100%;
+	text-align: center;
+}
+
+@for $number from 0 through 3 {
+	.slice-#{$number}:hover ~ .pizza-bg {
+		background-image: url('/images/slice-#{$number}.png');
+	}
+}
+
+@media (min-width: 481px) {
+	.pizza-bg {
+		left: 12.5%;
+	}
+}
+
+@media (min-width: 576px) {
+	.pizza-bg {
+		left: 5%;
+	}
+}
+
+@media (min-width: 769px) {
+	.pizza-bg {
+		left: 7.5%;
+	}
+
+	.col-sm-5 > div {
+		width: initial;
+		text-align: left;
+	}
+	.platforms {
+		padding-top: 95px;
+
+		> a:nth-of-type(1),
+		> a:nth-of-type(2) {
+			align-items: initial;
+		}
+	}
+}
+
+@media (min-width: 850px) {
+	.pizza-bg {
+		left: 13.5%;
+	}
+}
+
+@media (min-width: 1050px) {
+	.pizza-bg {
+		left: 20.5%;
+	}
+}
+
+@media (min-width: 1281px) {
+	.pizza-bg {
+		left: 25.25%;
+	}
+}

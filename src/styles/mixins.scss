@@ -1,0 +1,69 @@
+$transition-values: 0.5s opacity ease, 0.5s color ease, 0.5s background-image ease, 0.25s background-color ease, 0.5s border-color ease, 0.25s top ease, 0.65s max-height ease;
+$grey-dark-rgb: 76, 76, 76;
+$grey-dark: #4c4c4c;
+@mixin el-transition() {
+    -ms-transform: $transition-values, 0.55s max-height ease, 0.55s padding ease, 0.5s -ms-transform ease;
+    -moz-transition: $transition-values, 0.55s max-height ease, 0.55s padding ease, 0.5s -moz-box-shadow ease, 0.5s -moz-box-transform ease;
+    -webkit-transition: $transition-values, 0.55s max-height ease, 0.55s padding ease, 0.5s -webkit-box-shadow ease, 0.5s -webkit-transform ease;
+    transition: $transition-values, 0.55s max-height ease, 0.55s padding ease, 0.5s box-shadow ease, 0.5s transform ease;
+}
+@mixin border() {
+    border: 1px solid #ccc;
+}
+@mixin border-radius() {
+    border-radius: 5px;
+}
+@mixin box-shadow() {
+    -moz-box-shadow: 0 4px 4px 1px rgba(76,76,75,.15);
+    -webkit-box-shadow: 0 4px 4px 1px rgba(76,76,75,.15);
+    box-shadow: 0 4px 4px 1px rgba(76,76,75,.15);
+    &:hover {
+        -moz-box-shadow: 0 4px 4px 1px rgba(76,76,75,.35);
+        -webkit-box-shadow: 0 4px 4px 1px rgba(76,76,75,.35);
+        box-shadow: 0 4px 4px 1px rgba(76,76,75,.35)
+    }
+}
+@mixin card() {
+    @include border-radius();
+    @include box-shadow();
+    margin-bottom: 30px;
+}
+@mixin link--text() {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    &:hover, &:focus {
+        opacity: 0.75;
+        text-decoration: none;
+    }
+}
+@mixin link--white {
+    color: white;
+    &:hover, &:focus {
+        color: white;
+        border-bottom: 1px solid rgba(0,0,0,0.65);
+    }
+}
+@mixin link--black {
+    color: $grey-dark;
+    &:hover, &:focus {
+        color: $grey-dark;
+        border-bottom: 1px solid rgba(76, 76, 76,0.65);
+    }
+}
+.link--white {
+    @include link--white();
+}
+.link--text {
+    @include link--text();
+}
+.el-transition {
+    @include el-transition();
+}
+.text-dark {
+	color: $grey-dark;
+}
+.no-link-text {
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+}
