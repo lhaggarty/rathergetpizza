@@ -5,10 +5,8 @@ const state = {
 	global: {
 		episodes: episodeData.slice(0, 5),
 		archive: episodeData,
-		listen: [
-			{ id: 1, timecode: 30 },
-		]
-	}
+		listen: [{ id: 1, timecode: 30 }],
+	},
 };
 
 describe('episodeListByTypeSelector', () => {

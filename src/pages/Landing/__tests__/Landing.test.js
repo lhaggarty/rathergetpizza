@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { shallow } from 'enzyme';
 import { PLATFORMS_EXT, PLATFORMS_INT } from '../../../store/constants/LandingContants';
 import Landing from '../Landing.jsx';

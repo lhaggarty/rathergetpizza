@@ -1,65 +1,66 @@
-@import "./styles/mixins";
+@import './styles/mixins';
 
-.episode--card, .loading--card {
-    @include card();
-    @include el-transition();
+.episode--card,
+.loading--card {
+	@include card();
+	@include el-transition();
 }
 
 .card--image-background {
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    img {
-        opacity: 0;
-        visibility: hidden;
-        max-height: 435px;
-    }
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	img {
+		opacity: 0;
+		visibility: hidden;
+		max-height: 435px;
+	}
 }
 
 .page {
-    min-height: 80%;
+	min-height: 80%;
 }
 
 .top-padding-15 {
-    padding-top: 15%;
+	padding-top: 15%;
 }
 .vh-65 {
-    min-height: 65vh;
+	min-height: 65vh;
 }
 .vh-75 {
-    min-height: 86vh;
+	min-height: 86vh;
 }
 .App {
-    //text-align: center;
-    background-color: #f7f7f7;
-    color: $grey-dark;
+	//text-align: center;
+	background-color: #f7f7f7;
+	color: $grey-dark;
 	overflow-x: hidden;
 	min-height: 100vh;
 }
 
 .App-logo {
-    height: 40vmin;
+	height: 40vmin;
 }
 
 .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-    color: #09d3ac;
+	color: #09d3ac;
 }
 
 .d-none {
 	display: none;
 }
-div[style="position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%"] {
+div[style='position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%'] {
 	opacity: 0;
 	visibility: hidden;
 	height: 0;

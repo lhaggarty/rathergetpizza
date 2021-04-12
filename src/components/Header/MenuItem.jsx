@@ -12,16 +12,16 @@ export const checkActive = (match, location, item) => {
 const MenuItem = ({ item }) => {
 	const className = item.class || '';
 	return (
-	    <li>
-	        <NavLink
+		<li>
+			<NavLink
 				className={`${className} link--text link--black`}
 				activeClassName="active"
 				isActive={(match, location) => checkActive(match, location, item)}
 				to={item.link}
 			>
 				{item.name}
-	        </NavLink>
-	    </li>
+			</NavLink>
+		</li>
 	);
 };
 

@@ -7,17 +7,17 @@ import Footer from './components/Footer/Footer';
 import './App.scss';
 
 function App() {
-  return (
-    <div className="App">
-        <ConnectedRouter history={history}>
-            <div>
-                <Header />
-                <Router />
-                <Footer/>
-            </div>
-        </ConnectedRouter>
-    </div>
-  );
-};
+	return (
+		<div className="App">
+			<ConnectedRouter history={history}>
+				<div>
+					<Header />
+					<Router />
+					<Footer />
+				</div>
+			</ConnectedRouter>
+		</div>
+	);
+}
 
 export default App;

@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import MenuItem, { checkActive } from '../MenuItem.jsx';
 
 describe('MenuItem', () => {
-	const item = { id: 1, name: 'Home', component: "LandingComponent", link: "/" };
+	const item = { id: 1, name: 'Home', component: 'LandingComponent', link: '/' };
 
 	test('MenuItem mounts', () => {
 		const wrapper = shallow(<MenuItem item={item} />);
@@ -22,11 +22,11 @@ describe('MenuItem', () => {
 		});
 
 		test('checkActive returns true when location is the items link', () => {
-			expect(checkActive({}, {pathname: '/'}, item)).toBeTruthy();
+			expect(checkActive({}, { pathname: '/' }, item)).toBeTruthy();
 		});
 
 		test('checkActive returns true when location is the items link', () => {
-			expect(checkActive({}, {pathname: '/different'}, item)).toBeFalsy();
+			expect(checkActive({}, { pathname: '/different' }, item)).toBeFalsy();
 		});
 	});
 });

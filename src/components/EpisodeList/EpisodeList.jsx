@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types'
-import { getDateInteger } from "../../utils/date";
+import PropTypes from 'prop-types';
+import { getDateInteger } from '../../utils/date';
 import LoadingError from '../Loading/LoadingError.jsx';
 import LoadingList from '../Loading/LoadingList.jsx';
 import Episode from '../Episode/Episode.jsx';
@@ -19,7 +19,6 @@ const EpisodeList = (props) => {
 	}, [fetchEpisodes, episodes, history, date, setDate, currentDate]);
 
 	// otherwise display loading state
-	// if (episodes && episodes.length) return <LoadingList list={Array(3).fill()} />;
 	if (loading === true && loaded === false) return <LoadingList list={Array(3).fill()} />;
 
 	// return error if epsiodes not returned after loading
@@ -28,10 +27,10 @@ const EpisodeList = (props) => {
 	// return episodes when loaded
 	return (
 		<div className="episode--list">
-	        {episodes.map((episode,key) => (
-	            <Episode episode={episode} key={key}/>
-	        ))}
-    	</div>
+			{episodes.map((episode, key) => (
+				<Episode episode={episode} key={key} />
+			))}
+		</div>
 	);
 };
 

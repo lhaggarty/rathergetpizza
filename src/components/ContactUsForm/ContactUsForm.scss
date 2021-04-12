@@ -1,7 +1,7 @@
 @mixin propertyClass($cssProp, $value) {
-  .#{$cssProp}-#{$value} {
-    #{$cssProp}: $value;
-  }
+	.#{$cssProp}-#{$value} {
+		#{$cssProp}: $value;
+	}
 }
 
 .contact-us-form {

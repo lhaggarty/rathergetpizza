@@ -11,14 +11,14 @@ const Header = (props) => {
 	// 	if (!navMenu) getNavMenu();
 	// }, [navMenu, getNavMenu]);
 
-    return(
+	return (
 		<header className="header">
-		    <ul>
-		        {navMenu.map((item, key) =>
-		            <MenuItem item={item} key={key} />
-		        )}
-		    </ul>
-	    </header>
+			<ul>
+				{navMenu.map((item, key) => (
+					<MenuItem item={item} key={key} />
+				))}
+			</ul>
+		</header>
 	);
 };
 

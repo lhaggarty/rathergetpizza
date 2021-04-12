@@ -1,11 +1,12 @@
 import nestedProperty from 'nested-property';
 
-export const episodeListByTypeSelector = (state, type) => nestedProperty.get(state, `global.${type}`);
+export const episodeListByTypeSelector = (state, type) =>
+	nestedProperty.get(state, `global.${type}`);
 
 export const listenForEpisodeSelector = (state, { id }) => {
 	const listen = nestedProperty.get(state, 'global.listen');
 	if (!listen) return null;
-	return listen.find(item => item.id === id);
+	return listen.find((item) => item.id === id);
 };
 
 export const navMenuSelector = (state) => nestedProperty.get(state, 'global.navMenu');

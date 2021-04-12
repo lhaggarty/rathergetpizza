@@ -5,11 +5,12 @@
 		color: #4c4c4c;
 		opacity: 1;
 	}
-    &:hover, &:focus {
-        span {
+	&:hover,
+	&:focus {
+		span {
 			color: #dc3545;
-        }
-    }
+		}
+	}
 }
 .pizza-bg {
 	z-index: -1;
@@ -19,8 +20,8 @@
 	top: 5px;
 	background-image: url('/images/pizza-1.png');
 	-webkit-background-size: contain;
-  	-moz-background-size: contain;
-  	-o-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
 	min-height: 390px;
@@ -33,7 +34,8 @@
 	z-index: 1;
 	position: relative;
 
-	> a:nth-of-type(1), > a:nth-of-type(2) {
+	> a:nth-of-type(1),
+	> a:nth-of-type(2) {
 		align-items: flex-end !important;
 	}
 }
@@ -43,61 +45,56 @@
 	text-align: center;
 }
 
-
 @for $number from 0 through 3 {
-	.platforms:after {
-	   position:absolute; width:0; height:0; overflow:hidden; z-index:-1; // hide images
-	   content:url('/images/slice-#{$number}.png')
-	}
-
 	.slice-#{$number}:hover ~ .pizza-bg {
 		background-image: url('/images/slice-#{$number}.png');
 	}
 }
 
-@media(min-width: 481px) {
+@media (min-width: 481px) {
 	.pizza-bg {
-		left:12.5%;
+		left: 12.5%;
 	}
 }
 
-@media(min-width: 576px) {
+@media (min-width: 576px) {
 	.pizza-bg {
 		left: 5%;
 	}
 }
 
-@media(min-width: 769px) {
+@media (min-width: 769px) {
 	.pizza-bg {
 		left: 7.5%;
 	}
 
 	.col-sm-5 > div {
 		width: initial;
-	    text-align: left;
+		text-align: left;
 	}
 	.platforms {
 		padding-top: 95px;
 
-		> a:nth-of-type(1), > a:nth-of-type(2) {
+		> a:nth-of-type(1),
+		> a:nth-of-type(2) {
 			align-items: initial;
 		}
 	}
 }
 
-@media(min-width: 850px) {
+@media (min-width: 850px) {
 	.pizza-bg {
 		left: 13.5%;
 	}
 }
 
-@media(min-width: 1050px) {
+@media (min-width: 1050px) {
 	.pizza-bg {
 		left: 20.5%;
 	}
 }
 
-@media(min-width: 1281px) {
+@media (min-width: 1281px) {
 	.pizza-bg {
 		left: 25.25%;
 	}

@@ -13,10 +13,10 @@ import globalReducer from './reducers';
 // export default combineReducers({
 //     simpleReducer
 // });
-const createReducer = (history,injectedReducers = {}) =>
-    combineReducers({
-        global: globalReducer,
-        router: connectRouter(history),
-        ...injectedReducers,
-    })
+const createReducer = (history, injectedReducers = {}) =>
+	combineReducers({
+		global: globalReducer,
+		router: connectRouter(history),
+		...injectedReducers,
+	});
 export default createReducer;

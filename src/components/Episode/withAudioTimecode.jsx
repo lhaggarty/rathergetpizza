@@ -5,16 +5,15 @@ import { connect } from 'react-redux';
 import { listenForEpisodeSelector } from '../../store/selectors';
 
 export const getTimecode = (listen, episode) => {
-	return (listen && episode)
-		? listen.timecode : null;
+	return listen && episode ? listen.timecode : null;
 };
 
 export const EpisodeWrapper = (Component) => {
 	return class extends React.PureComponent {
 		constructor(props) {
-	   		super(props);
+			super(props);
 			// create a ref to store the textInput DOM element
-		   	this.audioRef = React.createRef();
+			this.audioRef = React.createRef();
 		}
 
 		componentDidMount() {
@@ -25,7 +24,7 @@ export const EpisodeWrapper = (Component) => {
 
 		render() {
 			const { episode, pauseListenSave } = this.props;
-			return(
+			return (
 				<Component
 					episode={episode}
 					pauseListenSave={pauseListenSave}
@@ -34,23 +33,20 @@ export const EpisodeWrapper = (Component) => {
 				/>
 			);
 		}
-	}
-}
+	};
+};
 
 EpisodeWrapper.propTypes = {
-    episode: PropTypes.object,
+	episode: PropTypes.object,
 	pauseListenSave: PropTypes.func,
 	listen: PropTypes.array,
 };
 
 const mapStateToProps = (state, ownProps) => {
-    const listen = listenForEpisodeSelector(state, ownProps.episode);
+	const listen = listenForEpisodeSelector(state, ownProps.episode);
 	return { listen };
 };
 
-const withAudioTimecode = compose(
-	connect(mapStateToProps),
-	EpisodeWrapper
-);
+const withAudioTimecode = compose(connect(mapStateToProps), EpisodeWrapper);
 
 export default withAudioTimecode;

@@ -1,7 +1,7 @@
 $root-class: episode--card;
 
 .#{$root-class} {
-    background-color: white;
+	background-color: white;
 
 	&__button {
 		background: none;
@@ -18,7 +18,7 @@ $root-class: episode--card;
 	}
 
 	&__audio {
-	    width: 100%;
-	    background-color: white;
+		width: 100%;
+		background-color: white;
 	}
 }
