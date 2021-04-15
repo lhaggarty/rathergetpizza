@@ -3,7 +3,7 @@ import '../../styles/floating-labels.css';
 import ContactUsForm from '../../components/ContactUsForm/ContactUsForm';
 import { ABOUT_TITLE, ABOUT_TEXT, CONTACT_FORM } from '../../store/constants/AboutConstants';
 
-class About extends React.Component {
+class Contact extends React.Component {
 	render() {
 		return (
 			<div className="about page vh-75">
@@ -33,4 +33,4 @@ class About extends React.Component {
 	}
 }
 
-export default About;
+export default Contact;

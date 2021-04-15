@@ -1,7 +1,8 @@
 ## Rather Get Pizza
 This is a web application repo for a hobby podcast.
 The repo uses React JS, Redux, Jest, Babel, loadable, and the react-router.
- 
+Netlify is used for deployment. Prettier and eslint for syntax validation.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,12 +1,11 @@
 export const initialState = {
 	navMenu: [
-		{ id: 1, name: 'Home', component: 'LandingComponent', link: '/' },
-		{ id: 2, name: 'Listen', component: 'ListenComponent', link: '/listen' },
-		{ id: 3, name: 'About', component: 'AboutComponent', link: '/about' },
+		{ id: 1, name: 'Home', link: '/' },
+		{ id: 2, name: 'Listen', link: '/listen' },
+		{ id: 3, name: 'Contact', link: '/contact' },
 		{
 			id: 4,
 			name: 'Archive',
-			component: 'ArchiveComponent',
 			link: '/archive',
 			class: 'd-none',
 		},
@@ -21,13 +20,11 @@ export const initialState = {
 export default (state = initialState, action) => {
 	switch (action.type) {
 		case 'SET_DATE':
-			console.log('SET_DATE', action);
 			return {
 				...state,
 				date: action.payload,
 			};
 		case 'LISTEN_SAVE':
-			console.log(state, action.payload);
 			const { id, timecode } = action.payload;
 			const listenList = state.listen.filter((item) => item.id !== id);
 			const listenEntry = {
