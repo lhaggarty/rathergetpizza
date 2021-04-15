@@ -12,12 +12,8 @@ const isDivisbleBy5 = (num) => !(parseInt(num) % 3);
 export const getTime = (episode, dispatch, e) => {
 	const { currentTime } = e.target;
 	if (currentTime && isDivisbleBy5(currentTime)) {
-		return dispatch(
-			listenSave({
-				id: episode.id || 0,
-				timecode: currentTime,
-			}),
-		);
+		const payload = { id: episode.id || 0, timecode: currentTime };
+		return dispatch(listenSave(payload));
 	}
 };
 

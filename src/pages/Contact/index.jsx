@@ -2,12 +2,12 @@ import React from 'react';
 import loadable from '@loadable/component';
 import Loading from '../../components/Loading/Loading.jsx';
 
-const LoadableComponent = loadable(() => import('./About'), {
+const LoadableComponent = loadable(() => import('./Contact'), {
 	fallback: <Loading />,
 });
 
-function LoadableAbout() {
+function LoadableContact() {
 	return <LoadableComponent />;
 }
 
-export default LoadableAbout;
+export default LoadableContact;

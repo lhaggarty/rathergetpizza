@@ -1,6 +1,6 @@
 export const listenSave = (payload) => (dispatch) => {
 	dispatch({
-		type: 'PAUSE_LISTEN_SAVE',
+		type: 'LISTEN_SAVE',
 		payload: payload,
 	});
 };
