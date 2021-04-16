@@ -8,9 +8,9 @@ const InstagramFeed = ({ posts }) => (
 			post.text = post.captionText.substring(0, 100) + '...';
 			return (
 				<div key={key} className="col-12 col-sm-6">
-					<div className="episode--card">
+					<div className="card">
 						<a href={post.link} target="_blank" rel="noopener noreferrer">
-							<div className="card--image-background" style={post.imageStyle}>
+							<div className="card__image-background" style={post.imageStyle}>
 								<img src={post.picture.url} alt={post.captionText} />
 							</div>
 						</a>

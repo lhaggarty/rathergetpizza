@@ -31,6 +31,10 @@ function checkStatus(response) {
 	throw error;
 }
 
+const fetchRequest = async (url, options) => {
+	await fetch(url, options).then(checkStatus).then(parseJSON);
+};
+
 /**
  * Requests a URL, returning a promise
  *
@@ -41,8 +45,8 @@ function checkStatus(response) {
  */
 const request = {
 	__esModule: true,
-	get: (url, options) => fetch(url, options).then(checkStatus).then(parseJSON),
-	default: (url, options) => fetch(url, options).then(checkStatus).then(parseJSON),
+	get: (url, options) => fetchRequest(url, options),
+	default: (url, options) => fetchRequest(url, options),
 };
 //console.log('request', typeof request.get('http://localhost:3000/db/episodes.json'));
 export default request;
