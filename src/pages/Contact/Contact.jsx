@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/floating-labels.css';
 import ContactUsForm from '../../components/ContactUsForm/ContactUsForm';
-import { ABOUT_TITLE, ABOUT_TEXT, CONTACT_FORM } from '../../store/constants/AboutConstants';
+import { ABOUT_TITLE, ABOUT_TEXT, CONTACT_FORM } from '../../store/constants/ContactConstants';
 
 class Contact extends React.Component {
 	render() {

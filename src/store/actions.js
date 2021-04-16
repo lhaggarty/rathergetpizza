@@ -27,11 +27,7 @@ export const fetchError = (payload) => (dispatch) => {
 };
 
 export const setEpisodes = (payload) => (dispatch) => {
-	dispatch({ type: 'SET_EPISODES', payload: payload });
-};
-
-export const setReleasedEpisodes = (payload) => (dispatch) => {
-	dispatch({ type: 'SET_RELEASED_EPISODES', payload: payload });
+	dispatch({ type: 'SET_EPISODES', payload });
 };
 
 export const setInstagram = (payload) => (dispatch) => {

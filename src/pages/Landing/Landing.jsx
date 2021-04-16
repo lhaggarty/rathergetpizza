@@ -21,7 +21,7 @@ function Landing(props) {
 				</div>
 				<div className="col-sm-7 col-12 d-flex ">
 					<div className="row w-100 justify-content-start d-flex">
-						<div className="card--image-background col-sm-12 col-12">
+						<div className="col-sm-12 col-12">
 							<div className="row h-100 platforms">
 								{PLATFORMS_EXT.map((item, key) => (
 									<a
@@ -37,9 +37,14 @@ function Landing(props) {
 										data-platform="external"
 									>
 										<span className="h4 px-2">{item.name}</span>
-											<Helmet>
-								                <link rel="preload" href={`/images/slice-${key}.png`} as="image" type="image/png" />
-								            </Helmet>
+										<Helmet>
+											<link
+												rel="preload"
+												href={`/images/slice-${key}.png`}
+												as="image"
+												type="image/png"
+											/>
+										</Helmet>
 									</a>
 								))}
 								<Link
@@ -50,7 +55,12 @@ function Landing(props) {
 								>
 									<span className="h4 px-2">{PLATFORM_INT.name}</span>
 									<Helmet>
-										<link rel="preload" href={`/images/slice-${PLATFORM_INT.index}.png`} as="image" type="image/png" />
+										<link
+											rel="preload"
+											href={`/images/slice-${PLATFORM_INT.index}.png`}
+											as="image"
+											type="image/png"
+										/>
 									</Helmet>
 								</Link>
 								<div className="pizza-bg"></div>

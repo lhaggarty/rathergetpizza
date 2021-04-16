@@ -1,19 +1,22 @@
 @import './styles/mixins';
 
+.card,
 .episode--card,
 .loading--card {
 	@include card();
 	@include el-transition();
-}
 
-.card--image-background {
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	img {
-		opacity: 0;
-		visibility: hidden;
-		max-height: 435px;
+	&__image-background {
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+
+		img {
+			opacity: 0;
+			visibility: hidden;
+			max-height: 435px;
+		}
 	}
 }
 

@@ -9,17 +9,10 @@ describe('Loading Card', () => {
 	});
 	test('background image is set', () => {
 		const renderedComponent = mount(<LoadingCard />);
-		console.log(
-			'ss',
-			renderedComponent
-				.find('.card--image-background')
-				.props()
-				.style.backgroundImage.indexOf('url'),
-		);
 		expect(renderedComponent.find('img').props().src.length > 1).toBe(true);
 		expect(
 			renderedComponent
-				.find('.card--image-background')
+				.find('.loading--card__image-background')
 				.props()
 				.style.backgroundImage.indexOf('url') > -1,
 		).toBe(true);

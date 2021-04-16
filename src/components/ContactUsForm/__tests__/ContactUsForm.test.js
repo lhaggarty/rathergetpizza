@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { CONTACT_FORM } from '../../../store/constants/AboutConstants.js';
+import { CONTACT_FORM } from '../../../store/constants/ContactConstants.js';
 import ContactUsForm from '../ContactUsForm';
 jest.mock('../../../utils/request', () => require('../../../../__mocks__/request'));
 
