@@ -1,3 +1,5 @@
+import { parseListen } from '../parsers';
+
 export const initialState = {
 	navMenu: [
 		{ id: 1, name: 'Home', link: '/' },
@@ -25,14 +27,7 @@ export default (state = initialState, action) => {
 				date: action.payload,
 			};
 		case 'LISTEN_SAVE':
-			const { id, timecode } = action.payload;
-			const listenList = state.listen.filter((item) => item.id !== id);
-			const listenEntry = {
-				active: 1,
-				id: id,
-				timecode: timecode,
-			};
-			const listen = [...listenList, listenEntry];
+			const listen = parseListen(state, action);
 			const newState = {
 				...state,
 				listen,
@@ -54,16 +49,21 @@ export default (state = initialState, action) => {
 				loaded: false,
 			};
 		case 'SET_EPISODES':
+			const { archive, episodes } = action.payload;
 			return {
 				...state,
-				archive: action.payload,
-			};
-		case 'SET_RELEASED_EPISODES':
-			return {
-				...state,
-				episodes: action.payload,
+				archive,
+				episodes,
 				loading: false,
 				loaded: true,
+			};
+		case 'RESET_EPISODES':
+			return {
+				...state,
+				episodes: [],
+				archive: [],
+				loading: false,
+				loaded: false,
 			};
 		case 'SET_INSTAGRAM':
 			return {

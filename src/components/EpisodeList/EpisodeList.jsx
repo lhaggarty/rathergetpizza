@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { getDateInteger } from '../../utils/date';
+import { removeQueryParam } from '../../utils/contentful';
 import LoadingError from '../Loading/LoadingError.jsx';
 import LoadingList from '../Loading/LoadingList.jsx';
 import Episode from '../Episode/Episode.jsx';
@@ -10,15 +11,16 @@ const EpisodeList = (props) => {
 	const currentDate = getDateInteger();
 
 	useEffect(() => {
-		if (!date || date !== currentDate || !episodes.length) {
+		if (!date || date !== currentDate) {
 			fetchEpisodes();
 			setDate(currentDate);
 		} else if (history.location.search.includes('refresh')) {
+			removeQueryParam('refresh');
 			fetchEpisodes();
 		}
-	}, [fetchEpisodes, episodes, history, date, setDate, currentDate]);
+	}, [fetchEpisodes, history, date, setDate, currentDate]);
 
-	// otherwise display loading state
+	// display loading state
 	if (loading === true && loaded === false) return <LoadingList list={Array(3).fill()} />;
 
 	// return error if epsiodes not returned after loading

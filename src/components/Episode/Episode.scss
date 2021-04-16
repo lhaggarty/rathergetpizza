@@ -2,6 +2,9 @@ $root-class: episode--card;
 
 .#{$root-class} {
 	background-color: white;
+	min-height: 550px;
+	display: flex;
+	flex-direction: column;
 
 	&__button {
 		background: none;
@@ -11,14 +14,22 @@ $root-class: episode--card;
 		margin-bottom: 1px;
 		outline: inherit;
 		width: 100%;
+		display: flex;
+		flex-grow: 1;
+		flex-direction: column;
 	}
 
 	&__name {
-		padding: 10px 15px;
+		width: 100%;
+		padding: 10px 15px 0;
+		display: flex;
+		flex-grow: 1;
+		justify-content: center;
 	}
 
 	&__audio {
 		width: 100%;
 		background-color: white;
+		margin-bottom: 8px;
 	}
 }

@@ -1,4 +1,4 @@
-export const PLATFORM_INT = { name: 'Here', link: '/listen', index: 3  };
+export const PLATFORM_INT = { name: 'Here', link: '/listen', index: 3 };
 export const PLATFORMS_EXT = [
 	{ name: 'Spotify', link: 'https://open.spotify.com/show/7rJ5BkJS3FWH56orAsEmWW' },
 	{ name: 'Apple', link: 'https://podcasts.apple.com/ca/podcast/rather-get-pizza/id1493239870' },

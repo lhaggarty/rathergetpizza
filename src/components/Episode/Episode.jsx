@@ -32,7 +32,7 @@ export const Episode = ({ episode, audioRef, timecode }) => {
 				onClick={() => audioRef.current.play()}
 				aria-label={episode.name}
 			>
-				<div className="card--image-background" style={episode.style}>
+				<div className={`${rootClass}__image-background`} style={episode.style}>
 					<img src={episode.image} alt={episode.name} />
 				</div>
 				<h4 className={`${rootClass}__name`}>{episode.name}</h4>
